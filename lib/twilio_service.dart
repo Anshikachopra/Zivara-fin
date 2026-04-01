@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class TwilioService {
-  static const _accountSid = 'ACda398a91de1621e391c9521251e296de';
-  static const _authToken  = '73874acfef4ad7a295b18a6efd7ca8a5';
-  static const _fromNumber = '+14785518419';
+  static const _accountSid = 'xxxx';
+  static const _authToken  = 'xxxx';
+  static const _fromNumber = 'xxxx';
 
   /// Normalises any Indian number to E.164 (+91XXXXXXXXXX).
   static String _normalise(String raw) {
